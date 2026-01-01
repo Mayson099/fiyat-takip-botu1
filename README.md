@@ -5,7 +5,7 @@ Bu proje, belirlenen e-ticaret sitelerindeki (Trendyol, Amazon, Kitapyurdu, İto
 # Özellikler
 Otomatik Takip: Belirlenen aralıklarla ürün fiyatlarını kontrol eder.
 
-Dinamik Bildirim: Fiyat bir önceki kontrol edilen fiyata göre düştüğü an e-posta gönderir.
+Bildirim: Fiyat bir önceki kontrol edilen fiyata göre düştüğü an e-posta gönderir.
 
 Geniş Site Desteği: JSON tabanlı yapı sayesinde yeni siteler kolayca eklenebilir.
 
@@ -19,10 +19,10 @@ Bilgisayarınızda Python'un (sürüm 3.8 veya üzeri) yüklü olduğundan emin 
 Kontrol etmek için terminale python --version yazabilirsiniz.
 
 2. 
-Projeyi bir klasöre indirin ve terminali  bu klasörün içinde açın.
+Projeyi bir klasöre indirin ve terminali bu klasörün içinde açın.
 
 3. 
-Sistemin internete bağlanması ve verileri işlemesi için gereken kütüphaneleri şu komutla yükleyin:
+Programın çalışabilmesi için gereken kütüphaneleri şu komutla yükleyin:
 pip install -r requirement.txt
 
 4.
@@ -40,7 +40,7 @@ Size verilen 16 haneli özel kodu bir yere not edin.
 
 email = "seninmailin@gmail.com"
 
-password = "16_haneli_özel_kod"
+password = "16_haneli_özel_kod"(Buraya not ettiğiniz 16 haneli özel kodu yazın)
 
 Her şey hazır olduktan sonra terminale şu komutu yazarak botu başlatın:
 
