@@ -1,0 +1,29 @@
+{
+  "trendyol": {
+    "title": ["h1"],
+    "price": [
+      { "tag": "div", "class": "price normal-price" },
+      { "tag": "span", "class": "prc-dsc" }
+    ]
+  },
+  "amazon": {
+    "title": [
+      "#productTitle",
+      "span#productTitle",
+      ".a-size-large.product-title-word-break"
+    ],
+    "price": [
+      { "tag": "span", "class": "a-offscreen" },
+      { "tag": "span", "class": "a-price-whole" },
+      { "tag": "span", "class": "priceToPay" },
+      { "tag": "span", "class": "a-color-price" }
+    ]
+  },
+  "kitapyurdu": {
+    "title": ["h1.pr_header__publisher", ".pr_header__name", "h1"],
+    "price": [
+      { "tag": "div", "class": "price__item" },
+      { "tag": "span", "class": "value" }
+    ]
+  }
+}
